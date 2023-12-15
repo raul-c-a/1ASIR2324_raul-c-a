@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+</head>
+<body>
+
+    <form method="get" action="">
+
+        <label for="texto1">Nombre: </label>
+        <input type="text" id="texto 1" name="username">
+
+            <br><br>
+
+        <label for="texto1">Apellido 1: </label>
+        <input type="text" id="texto 1" name="apellido1">
+
+            <br><br>
+
+        <label for="texto1">Apellido 2: </label>
+        <input type="text" id="texto 1" name="apellido2">
+
+            <br><br>
+
+        <label for="email">E-mail: </label>
+        <input type="text" id="email" name="email">
+
+            <br><br>
+
+        <label for="texto1">Contraseña: </label>
+        <input type="password" id="password" name="password">
+
+            <br><br>
+
+        <label for="texto1">Repetir Contraseña: </label>
+        <input type="password" id="password" name="password">
+
+            <br><br>
+
+        <label for="texto1">Teléfono: </label>
+        <input type="te" id="texto 1" name="apellido1">
+        
+
+    <h3>Radio Button</h3>
+
+        <input type="radio" id="cebola" name="tortilla">
+        <label for="cebola">Con Cebola</label>
+
+            <br><br>
+
+        <input type="radio" id="sencebola" name="tortilla">
+        <label for="sencebola">Sen Cebola</label>
+
+            <br><br>
+
+        <input type="radio" id="chorizo" name="tortilla">
+        <label for="chorizo">Con Chorizo</label>
+
+    <h3>Checkbox</h3>
+
+        <input type="checkbox" name="vehículo1" id="vehículo1" name="vehículo1" value="bicicleta">
+        <label for="vehículo1">Bicicleta</label>
+
+        <input type="checkbox" name="vehículo2" id="vehículo2" name="vehículo2" value="moto">
+        <label for="vehículo1">Moto</label>
+
+        <input type="checkbox" name="vehículo3" id="vehículo3" name="vehículo3" value="coche">
+        <label for="vehículo1">Coche</label>
+
+        <input type="checkbox" name="vehículo4" id="vehículo4" name="vehículo4" value="nave espacial">
+        <label for="vehículo1">Nave Espacial</label>
+
+    <br><br>
+
+    <h3>Submit</h3>
+
+        <input type="submit">
+
+            <br><br>
+
+    <h3>Button</h3>
+
+        <input type="button" onclick="alert('BOOM!!!')" value="Púlsame!">
+
+            <br><br>
+
+    <h3>Number</h3>
+
+        <input type="number" id="numero" name="numero" min="0" max="100" step="10">
+
+            <br><br>
+    
+    <h3>Date</h3>
+
+        <input type="date" name="data" id="data" min="2000-1-1" max="2025-12-31">
+
+            <br><br>
+
+    <h3>File</h3>
+
+        <input type="file" name="fichero" id="fichero">
+
+    <h3>Range</h3>
+
+        <input type="range" name="volúmen" id="volúmen" min="0" max="100">
+
+  </form>
+
+  <h2>Elementos adicionales</h2>
+
+    <p>Se pueden utilizar <strong>dentro</strong> o <strong>fuera</strong> de un formulario.</p>
+
+    <h3><textarea name="muchotexto" id="area51" cols="50" rows="4">Escribe un comentario...</textarea></h3>
+
+  <br><br>
+
+  <h3>Button</h3>
+
+    <button id="button1" onclick="alert('BOOM')">Púlsame</button>
+
+  <h3>Select</h3>
+
+    <label for="coche">Elige una marca de coches: </label>
+
+    <select name="coches" id="coches">
+        <option value=""></option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Bugatti">Bugatti</option>
+    </select>
+
+  <br><br>
+
+  <h3>Datalist</h3>
+
+    <label for="navegador">Navegador Web Preferido: </label>
+
+    <input list="navegadores" name="navegador" id="navegador">
+    <datalist id="navegadores">
+        <option value="Edge"></option>
+        <option value="Chrome"></option>
+        <option value="Firefox"></option>
+        <option value="Opera"></option>
+        <option value="Thor"></option>
+    </datalist>
+
+    <h2>Organización de Formularios</h2>
+
+    <form action="" method=""></form>
+
+        <fieldset>
+            <legend>Datos Personales</legend>
+                <label for="fname">Nome: </label>
+                <input type="text" id="fname" name="fname">
+                    <br>
+                <label for="lname">Apelido: </label>
+                <input type="text" id="lname" name="lname">
+                    <br>
+                <label for="email">E-mail: </label>
+                <input type="text" id="email" name="email">
+                    <br>
+                <label for="fecha">Data: </label>
+                <input type="text" id="fecha" name="fecha">
+                    <br>
+            <input type="submit">
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros datos</legend>
+
+                <label for="favcolor">Color Favorito</label>
+                <input type="color" id="color" value="">
+        </fieldset>
+
+</body>
+</html>
